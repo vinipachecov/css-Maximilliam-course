@@ -1,0 +1,31 @@
+
+
+.second-li code {
+  color: purple
+}
+/* 
+.list li:first-child {
+  background-color: white;
+  color: red;
+} */
+
+body {
+  color: red;
+  font-family: sans-serif;
+}
+
+#assignment-instructions {
+  color: blue;
+  font-family: sans-serif;
+}
+
+li + li  {
+  font-family: inherit;
+  background-color: black;
+  color: white;
+}
+
+ol > li {
+  background-color:  black;
+  color: white
+}
