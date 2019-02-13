@@ -1,0 +1,21 @@
+
+
+div {
+  background: blue;
+  color: white;  
+}
+
+div + p {
+  background: red;
+  color: white;  
+}
+
+div > p {
+  background: purple;
+  color: white;  
+}
+
+div ~ p {
+  background-color: brown;
+  color: white
+}
