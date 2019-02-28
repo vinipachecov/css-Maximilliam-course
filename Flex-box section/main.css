@@ -18,9 +18,15 @@ body {
     background: white;
     padding: 10px;
     border: 5px solid black;
+    height: 1300px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+     /* cross axis */
+    align-items: center;
+    /* main axis */
+    justify-content: center;
+    align-content: center;
   }
 
 .item-1 {
