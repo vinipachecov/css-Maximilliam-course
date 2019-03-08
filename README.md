@@ -85,3 +85,29 @@ Transition is a powerfull property, allowing us to create outstanding smooth eff
 * Set the animation-fill-mode to decide whether the properties of the las keyframe should be kept
 * Listen to animation events via javascript
 
+## Section 17
+
+CSS Variables
+
+* --your-name: 1rem;
+* Define values once, use them multiple times
+* Only supported in modern browsers
+
+Cross Browser Support
+
+* Browser implement new features differently and with different speed
+* Use vendor-prefixes to use cutting-edge features AND support olders browsers(partly)
+* @supports allows you to check for feature-support before using a property
+* Polyfills can enable some CSS features which wouldn't work otherwise
+* Consider normalizing CSS defaults across browsers.
+
+Naming CSS Classes
+
+* Use kebab-case (e.g, page-title) and name classes by feature not by style (e.g, title-blue)
+* Avoid class name collisions, for example by using BEM class names
+
+Vanilla CSS vs Frameworks
+
+* Writing all styles from scratch gives you full control but comes with more work and responsibility
+* Components frameworks allow you to build web pages rapidly but with less control.
+* Utility frameworks can be a good compromise.
